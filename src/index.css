@@ -1,0 +1,8 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+body { @apply bg-ivory text-charcoal font-sans antialiased; }
+.pattern { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Cpath d='M30 4l7 19 19 7-19 7-7 19-7-19-19-7 19-7z' fill='none' stroke='%23D4AF37' stroke-opacity='.22'/%3E%3C/svg%3E"); }
+.gold-text { @apply bg-gradient-to-r from-[#b8921f] via-gold to-[#f0d878] bg-clip-text text-transparent; }
+.btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold tracking-wide transition duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold; }
+.btn-gold { @apply bg-gold text-deep hover:bg-[#e3c157] hover:-translate-y-0.5 shadow-lg shadow-gold/20; }
+.btn-ghost { @apply border border-white/40 text-white hover:bg-white/10 hover:-translate-y-0.5; }
