@@ -6,13 +6,13 @@ export const NAV = [['Home','#home'],['About Us','#about'],['Ziyarat Services','
 
 export const DESTINATIONS = [
   { name:'Karbala', ar:'کربلا', country:'Iraq', desc:'The sacred resting place of Imam Hussain (a.s.) and his companions.', img:'karbala' },
-  { name:'Najaf', ar:'نجف', country:'Iraq', desc:'Home of the shrine of Imam Ali (a.s.) and Wadi-us-Salaam.' },
-  { name:'Kufa', ar:'کوفہ', country:'Iraq', desc:'The historic Masjid-e-Kufa and the city of Imam Ali (a.s.).' },
-  { name:'Kazmain', ar:'کاظمین', country:'Iraq', desc:'Shrines of Imam Musa al-Kazim and Imam Muhammad al-Jawad (a.s.).' },
-  { name:'Samarra', ar:'سامرا', country:'Iraq', desc:'The Al-Askari shrines and the golden dome of Imam Hadi and Imam Askari (a.s.).' },
-  { name:'Mashhad', ar:'مشہد', country:'Iran', desc:'The shrine of Imam Ali al-Ridha (a.s.), the spiritual heart of Iran.' },
-  { name:'Qom', ar:'قم', country:'Iran', desc:'City of Hazrat Masooma (s.a.) and a centre of Islamic learning.' },
-  { name:'Tehran', ar:'تہران', country:'Iran', desc:'Capital of Iran and a gateway to the Ziyarat journey.' },
+  { name:'Najaf', ar:'نجف', country:'Iraq', desc:'Home of the shrine of Imam Ali (a.s.) and Wadi-us-Salaam.', img:'najaf' },
+  { name:'Kufa', ar:'کوفہ', country:'Iraq', desc:'The historic Masjid-e-Kufa and the city of Imam Ali (a.s.).', img:'masjid e kufa' },
+  { name:'Kazmain', ar:'کاظمین', country:'Iraq', desc:'Shrines of Imam Musa al-Kazim and Imam Muhammad al-Jawad (a.s.).', img:'kazmain' },
+  { name:'Samarra', ar:'سامرا', country:'Iraq', desc:'The Al-Askari shrines and the golden dome of Imam Hadi and Imam Askari (a.s.).', img:'sammra' },
+  { name:'Mashhad', ar:'مشہد', country:'Iran', desc:'The shrine of Imam Ali al-Ridha (a.s.), the spiritual heart of Iran.', img:'mashad' },
+  { name:'Qom', ar:'قم', country:'Iran', desc:'City of Hazrat Masooma (s.a.) and a centre of Islamic learning.', img:'qom' },
+  { name:'Masjid e Jamkran', ar:'مسجدِ جمکران', country:'Iran', desc:'Masjid-e-Jamkaran is a famous Shia mosque near Qom, Iran, believed to have been built by the command of Imam Mahdi (عج), and is a major center of prayer and spiritual devotion..', img:'masjid e jamkran' },
 ]
 
 export const WHY = [
