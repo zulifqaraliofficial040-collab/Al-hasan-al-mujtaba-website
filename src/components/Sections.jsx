@@ -5,7 +5,10 @@ import { DESTINATIONS, WHY, SERVICES, WA } from '../data'
 import karbala from '../assets/karbala.webp'
 import kaaba from '../assets/kaaba.webp'
 
-const imgs = { karbala }
+const files = import.meta.glob('../assets/*.{jpg,jpeg,png,webp}', { eager: true, import: 'default' })
+const imgs = Object.fromEntries(
+  Object.entries(files).map(([p, url]) => [p.split('/').pop().replace(/\.[^.]+$/, ''), url])
+)
 
 export const About = () => (
   <section id="about" className="mx-auto max-w-6xl px-6 py-24">
